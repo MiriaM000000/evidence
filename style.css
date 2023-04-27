@@ -1,0 +1,30 @@
+*{
+font-family: 'Open Sans', sans-serif; 
+}
+
+/* VÝSLEDKY Z FORMULÁŘE*/
+.link{
+    color: #fb8500;
+}
+
+/* DETAIL POJIŠTENCE */
+ .detailBtn{
+    height: 15%;
+    width: 10%;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(images/arrow.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.detailBtn:hover{
+    transform: scaleX(1.1);
+} 
+.create img:hover{
+    opacity: 0.6;
+} 
+
+
+
